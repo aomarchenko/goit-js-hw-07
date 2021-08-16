@@ -6,6 +6,5 @@ const refItems = refCategory.querySelectorAll('.item');
 
 refItems.forEach(element => {
   console.log('Категория : ', element.getElementsByTagName('h2')[0].textContent);
-  console.log('Количество эелментов : ', element.getElementsByTagName('li').length);
-  console.log('');
+  console.log('Количество элементов : ', element.getElementsByTagName('li').length);
 });
